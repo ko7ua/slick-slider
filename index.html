@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>Exam</title>
+  </head>
+  <body>
+    <div class="out">
+      <div class="container">
+        <header class="head">
+          <div class="log">
+            <a href="#"><img src="./img/logo1.png" alt="" /></a
+            ><a href="#"><img src="./img/logo2.png" alt="" /></a>
+          </div>
+          <div class="right">
+            <div class="up">
+              <a href="tel:+81112223344"
+                ><img src="./img/tel.png" alt="" /> 8 (111) 222-33-44</a
+              >
+              <p class="time">
+                <img src="./img/clock.png" alt="" />Пн-Пт 10:00-18:00
+              </p>
+              <a href="mailto:order@buhone.ru"
+                ><img src="./img/mail.png" alt="" />order@buhone.ru</a
+              >
+              <p class="geo">
+                <img src="./img/geo.png" alt="" />Невский пр. 130
+              </p>
+            </div>
+            <div class="down">
+              <ul class="menu">
+                <li><a href="#">главная</a></li>
+                <li><a href="#">услуги</a></li>
+                <li><a href="#">кейсы</a></li>
+                <li><a href="#">о компании</a></li>
+                <li><a href="#">контакты</a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <!-- slider -->
+    <div class="slide">
+      <div class="inside">
+        <h2>Бухгалтерские услуги в Санкт-Петербурге</h2>
+        <a href="#"><img src="./img/butt.png" alt="" /></a>
+      </div>
+      <div class="inside">
+        <h2>Бухгалтерские услуги в Санкт-Петербурге</h2>
+        <a href="#"><img src="./img/butt.png" alt="" /></a>
+      </div>
+      <div class="inside">
+        <h2>Бухгалтерские услуги в Санкт-Петербурге</h2>
+        <a href="#"><img src="./img/butt.png" alt="" /></a>
+      </div>
+      <div class="inside">
+        <h2>Бухгалтерские услуги в Санкт-Петербурге</h2>
+        <a href="#"><img src="./img/butt.png" alt="" /></a>
+      </div>
+    </div>
+
+    <!-- slick -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".slide").slick({
+          dots: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        });
+      });
+    </script>
+  </body>
+</html>

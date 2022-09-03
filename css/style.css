@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+/* header */
+.out {
+  background-color: white;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  max-width: 665px;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+.up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.up p,
+a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.up img {
+  padding-right: 10px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.log {
+  display: flex;
+}
+.log a {
+  margin-right: 25px;
+}
+.log a:last-child {
+  margin-right: 0;
+}
+/* slide */
